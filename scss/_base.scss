@@ -1,3 +1,10 @@
+$white: #EFF2F7;
+$black: #1f2d3d;
+$yellow: #FFD55F;
+$blue: #85D7FF;
+$green: #29EB7F;
+$highlight: $blue;
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -10,8 +17,10 @@ html {
 }
 
 body {
-  background: #aeefee;
-  color: #303351;
+  //background: #aeefee;
+  //color: #303351;
+  background: $white;
+  color: $black;
   font-family: 'Roboto Mono', monospace;
   font-size: 1.5rem;
   letter-spacing: 1px;
@@ -24,13 +33,13 @@ h1 {
 }
 
 a {
-  box-shadow: inset 0 -0.33333em #ffe3ba;
+  box-shadow: inset 0 -0.33333em $highlight;
   cursor: pointer;
   transition: all .2s ease-in;
   text-decoration: none;
   color: inherit;
   &:hover {
-    background: #ffe3ba;
+    background: $highlight;
     box-shadow: none;
   }
 }

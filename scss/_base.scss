@@ -1,8 +1,9 @@
-$white: #EFF2F7;
-$black: #1f2d3d;
-$yellow: #FFD55F;
-$blue: #85D7FF;
-$green: #29EB7F;
+$white: #F9FAFC;
+$black: #1F2D3D;
+$yellow: #FFC82C;
+$blue: #1FB6FF;
+$orange: #FF9E7C;
+$purple: #7E5BEF;
 $highlight: $blue;
 
 html {
@@ -17,8 +18,6 @@ html {
 }
 
 body {
-  //background: #aeefee;
-  //color: #303351;
   background: $white;
   color: $black;
   font-family: 'Roboto Mono', monospace;
@@ -33,7 +32,7 @@ h1 {
 }
 
 a {
-  box-shadow: inset 0 -0.33333em $highlight;
+  box-shadow: inset 0 -0.4em $highlight;
   cursor: pointer;
   transition: all .2s ease-in;
   text-decoration: none;
@@ -45,5 +44,5 @@ a {
 }
 
 p {
-  max-width: 500px;
+  max-width: 440px;
 }
